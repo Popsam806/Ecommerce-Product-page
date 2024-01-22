@@ -1,0 +1,16 @@
+.header {
+    padding: 0 9rem;
+}
+
+.head-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.0625rem solid hsl(220, 14%, 75%);
+    width: 100%;
+}
+.comp-name {
+    display: inline-flex;
+    gap: 2.5rem;
+    align-items: center;
+}

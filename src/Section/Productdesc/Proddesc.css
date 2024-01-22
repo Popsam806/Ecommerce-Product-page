@@ -1,0 +1,48 @@
+.prod-desc {
+    display: grid;
+    gap: 1rem;
+    
+}
+.buttons {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 35% 60%;
+    gap: 0.9375rem;
+}
+.orange-text {
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+}
+.grey-text {
+    color: hsl(219, 9%, 45%);
+}
+.new-price {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.discount {
+    background-color:  hsl(25, 89%, 82%);
+    color: hsl(26, 100%, 55%);
+    padding: 0.125rem 0.3125rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 0.3125rem;
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem;
+    -ms-border-radius: 0.3125rem;
+    -o-border-radius: 0.3125rem;
+}
+@media (max-width: 31.25rem) {
+    .prod-desc {
+        height: 100%;
+        padding: 1.2rem;
+        justify-content: space-around;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
