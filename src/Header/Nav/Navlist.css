@@ -11,6 +11,9 @@
 .navlist li.active {
     border-bottom: 0.1875rem solid hsl(26, 100%, 55%);
 }
+a {
+    color: hsl(219, 9%, 45%);
+}
 
 @media (max-width: 31.25rem) {
     .navlist{ display: none;}
