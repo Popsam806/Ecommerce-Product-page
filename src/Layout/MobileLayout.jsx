@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../Header/Header";
+import MobileHeader from "../Header/MobileHeader";
 
-function MainLayout({children}) {
+function MobileLayout({children}) {
   return (
     <div>
-      <Header />
+      <MobileHeader />
       <div>{children}</div>
     </div>
   );
 }
 
-export default MainLayout;
+export default MobileLayout;
